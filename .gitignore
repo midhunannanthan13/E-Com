@@ -1,0 +1,13 @@
+# secrets and generated folders - never upload these
+backend/.env
+backend/venv/
+backend/kk/
+backend/*env*/
+backend/certs/*.pem
+backend/db.sqlite3
+backend/staticfiles/
+__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/build/
+.DS_Store
