@@ -3,7 +3,6 @@ backend/.env
 backend/venv/
 backend/kk/
 backend/*env*/
-backend/certs/*.pem
 backend/db.sqlite3
 backend/staticfiles/
 __pycache__/

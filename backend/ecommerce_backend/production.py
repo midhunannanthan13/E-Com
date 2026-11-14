@@ -13,9 +13,15 @@ import os
 # ------------------------------------------------------------------
 DEBUG = False
 
-SECRET_KEY = os.environ['SECRET_KEY']       # required – will error if missing
+# Support both DJANGO_SECRET_KEY (guide) and SECRET_KEY
+SECRET_KEY = (
+    os.environ.get('DJANGO_SECRET_KEY') or 
+    os.environ.get('SECRET_KEY') or 
+    'DOtIyHeRmm0YfesLnRAwGVuNaSHAiNipgK3D5683IqwyCN3nsF-D8zZOok5RJujqk1o'
+)
 
 ALLOWED_HOSTS = [
+    '*',
     '.vercel.app',
     '.onrender.com',
     'localhost',

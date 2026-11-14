@@ -118,7 +118,9 @@ if os.environ.get('AIVEN_DB_HOST'):
 
     db_options = {'charset': 'utf8mb4'}
     if Path(ca_path).exists():
-        db_options['ssl'] = {'ca': ca_path}
+        db_options['ssl'] = {'ca': str(ca_path)}
+    else:
+        db_options['ssl'] = {'ssl_mode': 'REQUIRED'}
 
     DATABASES['default'] = {
         'ENGINE': 'django.db.backends.mysql',
