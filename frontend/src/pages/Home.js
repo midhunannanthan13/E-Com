@@ -7,7 +7,7 @@ import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 import { useToast } from '../context/ToastContext';
 
-const PAGE_SIZE = 12;
+const PAGE_SIZE = 40;
 
 // Exact high-resolution category avatars for circular category strip (Meesho/Flipkart style)
 const CATEGORY_AVATARS = {
@@ -18,6 +18,12 @@ const CATEGORY_AVATARS = {
   'Home & Kitchen': 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=200&h=200&fit=crop',
   'Home Decor & Lighting': 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=200&h=200&fit=crop',
   'Books & Learning': 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=200&h=200&fit=crop',
+  'Groceries & Essentials': 'https://images.unsplash.com/photo-1542838132-92c53300491e?w=200&h=200&fit=crop',
+  'Sports & Fitness': 'https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=200&h=200&fit=crop',
+  'Toys & Baby Products': 'https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=200&h=200&fit=crop',
+  'Health & Wellness': 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=200&h=200&fit=crop',
+  'Stationery & Office': 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=200&h=200&fit=crop',
+  'Automotive & Accessories': 'https://images.unsplash.com/photo-1502877338535-766e1452684a?w=200&h=200&fit=crop',
 };
 
 const DEFAULT_AVATAR = 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=200&h=200&fit=crop';
@@ -56,6 +62,17 @@ const HERO_SLIDES = [
     categorySearch: 'kitchen',
     badge: 'Free Delivery',
     image: 'https://images.unsplash.com/photo-1556909114-44e3e70034e2?w=600&fit=crop',
+  },
+  {
+    id: 4,
+    tag: 'FARM FRESH & DAILY PANTRY',
+    title: 'Organic Groceries, Cold-Pressed Oils & Dry Fruits',
+    sub: 'Stock up your pantry with authentic Himalayan honey, unpolished dals, aged basmati & Kashmiri saffron.',
+    bg: 'linear-gradient(135deg, #78350f 0%, #d97706 50%, #f59e0b 100%)',
+    cta: 'Shop Groceries',
+    categorySearch: 'rice',
+    badge: '100% Organic',
+    image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&fit=crop',
   },
 ];
 

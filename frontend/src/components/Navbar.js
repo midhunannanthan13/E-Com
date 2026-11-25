@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
+import api from '../api/axios';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
@@ -14,6 +15,12 @@ const TRENDING_SEARCHES = [
   'Electric Kettle',
   'Atomic Habits',
   'Face Serum',
+  'Basmati Rice',
+  'Yoga Mat',
+  'Cricket Bat',
+  'Protein Powder',
+  'Baby Stroller',
+  'Dash Camera',
 ];
 
 export default function Navbar() {
@@ -25,6 +32,7 @@ export default function Navbar() {
 
   const [searchInput, setSearchInput] = useState(searchParams.get('search') || '');
   const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || '');
+  const [categories, setCategories] = useState([]);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   const [pincode, setPincode] = useState(() => localStorage.getItem('shopsphere_pincode') || '560001');
   const [editingPincode, setEditingPincode] = useState(false);
@@ -38,6 +46,12 @@ export default function Navbar() {
     setSearchInput(searchParams.get('search') || '');
     setSelectedCategory(searchParams.get('category') || '');
   }, [searchParams]);
+
+  useEffect(() => {
+    api.get('/products/categories/')
+      .then(({ data }) => setCategories(data))
+      .catch(() => setCategories([]));
+  }, []);
 
   // Click outside listener for search suggestions & user dropdown
   useEffect(() => {
@@ -173,13 +187,9 @@ export default function Navbar() {
                 aria-label="Filter by department"
               >
                 <option value="">All Categories</option>
-                <option value="1">Electronics</option>
-                <option value="2">Men's Fashion</option>
-                <option value="3">Women's Fashion</option>
-                <option value="4">Beauty & Care</option>
-                <option value="5">Home & Kitchen</option>
-                <option value="6">Home Decor</option>
-                <option value="7">Books & Learning</option>
+                {categories.map((c) => (
+                  <option key={c.id} value={c.id}>{c.name}</option>
+                ))}
               </select>
 
               <div className="search-input-wrap">

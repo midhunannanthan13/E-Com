@@ -58,6 +58,16 @@ SAMPLE_DATA = {
             'Ultra-soft memory foam ear cushions, 40mm Hi-Res neodymium drivers, 50-hour wireless battery life with fast charge.',
             'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&fit=crop',
         ),
+        (
+            '4K Ultra HD Webcam with Ring Light', 2199.00, 30, 4.5,
+            'Auto-focus 4K webcam with built-in adjustable ring light, noise-canceling mic, and privacy shutter for streaming.',
+            'https://images.unsplash.com/photo-1587826080692-f439cd0b70da?w=800&fit=crop',
+        ),
+        (
+            'Wireless Charging Pad 15W Qi Fast Charger', 599.00, 55, 4.3,
+            'Ultra-slim aluminum Qi-certified wireless charger compatible with iPhone, Samsung, AirPods with LED indicator.',
+            'https://images.unsplash.com/photo-1591815302525-756a9bcc3425?w=800&fit=crop',
+        ),
     ],
     "Men's Fashion": [
         (
@@ -94,6 +104,16 @@ SAMPLE_DATA = {
             'Breathable Relaxed Fit Casual Linen Shirt', 999.00, 35, 4.4,
             'Pure linen-blend spread collar shirt crafted for warm summer days, weekend brunches, and evening outings.',
             'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&fit=crop',
+        ),
+        (
+            'Slim Fit Formal Blazer Navy Blue', 3499.00, 20, 4.7,
+            'Two-button single-breasted formal blazer with notch lapel, inner pocket, and tailored slim-fit silhouette.',
+            'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&fit=crop',
+        ),
+        (
+            'Athletic Performance Jogger Pants', 899.00, 45, 4.3,
+            'Moisture-wicking stretch fabric joggers with zippered pockets, elastic waistband, and tapered ankle cuffs.',
+            'https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=800&fit=crop',
         ),
     ],
     "Women's Fashion": [
@@ -137,6 +157,11 @@ SAMPLE_DATA = {
             'Flattering high-rise waist with premium stretch denim that hugs your shape comfortably all day.',
             'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&fit=crop',
         ),
+        (
+            'Printed Georgette A-Line Party Wear Dress', 1799.00, 30, 4.6,
+            'Lightweight georgette fabric with vibrant digital prints, V-neck, and flared A-line silhouette for evening events.',
+            'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&fit=crop',
+        ),
     ],
     'Beauty & Personal Care': [
         (
@@ -168,6 +193,16 @@ SAMPLE_DATA = {
             'Natural Hydrating Gel Sunscreen SPF 50+ PA++++', 499.00, 80, 4.8,
             'Ultra-lightweight invisible water-gel texture with zero white cast and broad spectrum UV protection.',
             'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&fit=crop',
+        ),
+        (
+            'Retinol Anti-Aging Night Repair Cream 50ml', 899.00, 35, 4.6,
+            'Advanced retinol formula with peptides and niacinamide to reduce fine lines and boost overnight skin renewal.',
+            'https://images.unsplash.com/photo-1570194065650-d99fb4a38691?w=800&fit=crop',
+        ),
+        (
+            'Professional Hair Straightener Ceramic Flat Iron', 1499.00, 30, 4.5,
+            'Tourmaline ceramic plates with adjustable temperature 150-230°C, auto-shutoff and 360° swivel cord.',
+            'https://images.unsplash.com/photo-1522338242992-e1a54571a398?w=800&fit=crop',
         ),
     ],
     'Home & Kitchen': [
@@ -201,6 +236,21 @@ SAMPLE_DATA = {
             'Set of 4 oven-safe glass meal prep containers with 4-sided snap locking silicone airtight lids.',
             'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800&fit=crop',
         ),
+        (
+            '750W Powerful Mixer Grinder 3 Jar Set', 2499.00, 25, 4.5,
+            'High-speed copper motor mixer grinder with stainless steel blades and 3 multipurpose jars for grinding and blending.',
+            'https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800&fit=crop',
+        ),
+        (
+            'Non-Stick Dosa Tawa Premium Flat Pan 30cm', 699.00, 50, 4.4,
+            'Extra-thick aluminium base with 5-layer non-stick coating for perfect dosas, crepes, and uttapams every time.',
+            'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&fit=crop',
+        ),
+        (
+            'Digital Kitchen Weighing Scale 10kg', 449.00, 60, 4.3,
+            'High precision digital scale with LCD display, tare function, and tempered glass platform for precise cooking.',
+            'https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=800&fit=crop',
+        ),
     ],
     'Home Decor & Lighting': [
         (
@@ -233,6 +283,11 @@ SAMPLE_DATA = {
             'Waterproof PE coating with reinforced cotton rope carry handles for clothes, linens, and living room storage.',
             'https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=800&fit=crop',
         ),
+        (
+            'Wooden Photo Frame Collage Set of 8', 999.00, 35, 4.4,
+            'Mix of 4x6 and 5x7 inch frames in walnut finish for creating a beautiful gallery wall display.',
+            'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&fit=crop',
+        ),
     ],
     'Books & Learning': [
         (
@@ -264,6 +319,289 @@ SAMPLE_DATA = {
             'Python Crash Course 3rd Edition by Eric Matthes', 649.00, 30, 4.7,
             'The world bestselling guide to Python programming with hands-on real projects for data, games, and web apps.',
             'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=800&fit=crop',
+        ),
+        (
+            'Sapiens: A Brief History of Humankind by Yuval Noah Harari', 499.00, 50, 4.8,
+            'A groundbreaking narrative of humanity from the Stone Age to the present day. International bestseller.',
+            'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=800&fit=crop',
+        ),
+        (
+            'Think and Grow Rich by Napoleon Hill', 299.00, 65, 4.6,
+            'The original personal finance classic that has inspired millions to achieve success and wealth.',
+            'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&fit=crop',
+        ),
+    ],
+    # ===== NEW CATEGORIES =====
+    'Groceries & Essentials': [
+        (
+            'Organic Basmati Rice Premium 5kg', 549.00, 100, 4.7,
+            'Naturally aged long-grain basmati rice with aromatic fragrance, perfect for biryanis and pulao.',
+            'https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&fit=crop',
+        ),
+        (
+            'Cold-Pressed Extra Virgin Olive Oil 1L', 799.00, 60, 4.6,
+            'First-press premium olive oil from Mediterranean olives, ideal for salads, cooking, and marinades.',
+            'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&fit=crop',
+        ),
+        (
+            'Natural Raw Honey Multiflora 500g', 399.00, 80, 4.8,
+            'Unprocessed raw forest honey with natural enzymes and antioxidants, sourced from Himalayan bee farms.',
+            'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&fit=crop',
+        ),
+        (
+            'Premium Whole Wheat Atta 10kg', 449.00, 120, 4.5,
+            'Stone-ground whole wheat flour rich in fibre and nutrients for soft rotis and healthy chapatis.',
+            'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=800&fit=crop',
+        ),
+        (
+            'Assorted Dry Fruits Gift Box 1kg', 1299.00, 40, 4.7,
+            'Premium selection of almonds, cashews, pistachios, and raisins in an elegant wooden gift box.',
+            'https://images.unsplash.com/photo-1608797178974-15b35a64ede9?w=800&fit=crop',
+        ),
+        (
+            'Organic Green Tea Loose Leaf 250g', 349.00, 70, 4.5,
+            'Handpicked Darjeeling green tea leaves rich in antioxidants for a refreshing and healthy daily brew.',
+            'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&fit=crop',
+        ),
+        (
+            'Toor Dal Unpolished Organic 2kg', 299.00, 90, 4.4,
+            'Farm-fresh unpolished toor dal for authentic homestyle dal tadka, sambar, and rasam preparations.',
+            'https://images.unsplash.com/photo-1612257999756-530dce4f4b26?w=800&fit=crop',
+        ),
+        (
+            'Cold-Pressed Coconut Oil Virgin 1L', 449.00, 65, 4.6,
+            'Pure unrefined virgin coconut oil for cooking, skin care, and hair care with natural coconut aroma.',
+            'https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=800&fit=crop',
+        ),
+        (
+            'Instant Masala Oats Variety Pack 12 Sachets', 249.00, 100, 4.3,
+            'Quick 3-minute breakfast oats in masala, tomato, and peppy flavors with real spice blends and veggies.',
+            'https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=800&fit=crop',
+        ),
+        (
+            'Premium Saffron Threads Kashmiri 1g', 499.00, 30, 4.9,
+            'Genuine Grade-1 Kashmiri Kesar saffron threads for biryanis, desserts, and milk with rich color and aroma.',
+            'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&fit=crop',
+        ),
+    ],
+    'Sports & Fitness': [
+        (
+            'Anti-Burst Exercise Ball 65cm with Pump', 599.00, 45, 4.4,
+            'Professional-grade PVC exercise ball for yoga, pilates, core strengthening, and balance training.',
+            'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&fit=crop',
+        ),
+        (
+            'Adjustable Dumbbell Set 20kg with Case', 2999.00, 20, 4.7,
+            'Cement-filled adjustable dumbbells with chrome-plated bars and spin-lock collars in a carrying case.',
+            'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&fit=crop',
+        ),
+        (
+            'Premium Yoga Mat 6mm Anti-Slip TPE', 799.00, 55, 4.6,
+            'Eco-friendly TPE material with dual-sided texture for superior grip, alignment lines, and carrying strap.',
+            'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=800&fit=crop',
+        ),
+        (
+            'Digital Skipping Rope with Counter', 449.00, 70, 4.5,
+            'Ball-bearing speed rope with digital LCD counter, calorie tracker, and adjustable length for HIIT cardio.',
+            'https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&fit=crop',
+        ),
+        (
+            'Resistance Bands Set 5 Levels with Bag', 499.00, 60, 4.5,
+            'Latex-free TPE resistance bands in 5 progressive levels for strength training, rehab, and stretching.',
+            'https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=800&fit=crop',
+        ),
+        (
+            'Stainless Steel Protein Shaker Bottle 700ml', 399.00, 80, 4.3,
+            'Leak-proof shaker with wire ball for smooth mixing, measurement markings, and BPA-free flip cap.',
+            'https://images.unsplash.com/photo-1593095948071-474c5cc2c4d8?w=800&fit=crop',
+        ),
+        (
+            'Professional Boxing Hand Wraps 180 inch Pair', 299.00, 60, 4.4,
+            'Semi-elastic cotton hand wraps with thumb loop and velcro closure for boxing, MMA, and kickboxing.',
+            'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=800&fit=crop',
+        ),
+        (
+            'Foam Roller Deep Tissue Massage 18 inch', 699.00, 40, 4.6,
+            'High-density EVA foam roller with textured grid for myofascial release, muscle recovery, and flexibility.',
+            'https://images.unsplash.com/photo-1570655652364-2e0a67455ac6?w=800&fit=crop',
+        ),
+        (
+            'Cricket Bat English Willow Grade A', 3999.00, 15, 4.8,
+            'Hand-crafted English willow bat with premium cane handle, toe guard, and anti-scuff sheet for match play.',
+            'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&fit=crop',
+        ),
+        (
+            'Football Official Size 5 Match Ball', 999.00, 35, 4.5,
+            'Machine-stitched PU leather match ball with butyl bladder for excellent air retention and consistent bounce.',
+            'https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=800&fit=crop',
+        ),
+    ],
+    'Toys & Baby Products': [
+        (
+            'Building Blocks 100pc Creative Set', 799.00, 40, 4.6,
+            'Colorful interlocking building blocks for ages 3+ to develop creativity, motor skills, and spatial thinking.',
+            'https://images.unsplash.com/photo-1587654780291-39c9404d7dd0?w=800&fit=crop',
+        ),
+        (
+            'Remote Control Racing Car 2.4GHz Off-Road', 1499.00, 25, 4.5,
+            'High-speed 4WD RC car with rechargeable battery, rubber tires, and 2.4GHz remote for outdoor racing fun.',
+            'https://images.unsplash.com/photo-1581235707960-23b7e8f7e4c6?w=800&fit=crop',
+        ),
+        (
+            'Stuffed Teddy Bear Premium Plush 60cm', 699.00, 50, 4.7,
+            'Ultra-soft huggable teddy bear with hypoallergenic polyester filling and satin ribbon bow tie.',
+            'https://images.unsplash.com/photo-1559715541-5daf8a0296d0?w=800&fit=crop',
+        ),
+        (
+            'Baby Stroller Lightweight Foldable with Canopy', 4999.00, 15, 4.8,
+            'One-hand fold aluminum frame stroller with 5-point harness, adjustable canopy, and storage basket.',
+            'https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&fit=crop',
+        ),
+        (
+            'Wooden Alphabet Learning Puzzle Board', 449.00, 60, 4.5,
+            'Colorful wooden A-Z alphabet puzzle with chunky pieces for toddlers, Montessori-style early learning.',
+            'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=800&fit=crop',
+        ),
+        (
+            'Baby Feeding Bottle Set BPA-Free 3-Pack', 599.00, 55, 4.4,
+            'Anti-colic wide-neck bottles with silicone nipples in 3 sizes (150ml, 240ml, 300ml) for newborn to 12 months.',
+            'https://images.unsplash.com/photo-1584839404024-537f21a3e59c?w=800&fit=crop',
+        ),
+        (
+            'Musical Activity Play Mat for Infants', 1299.00, 30, 4.6,
+            'Soft padded play gym with detachable hanging toys, mirror, and music box for sensory development 0-12 months.',
+            'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&fit=crop',
+        ),
+        (
+            'Kids Science Experiment Kit 60+ Experiments', 899.00, 35, 4.7,
+            'Educational STEM science kit with lab equipment for chemistry, physics, and biology experiments ages 8+.',
+            'https://images.unsplash.com/photo-1596496181848-3091d4878b24?w=800&fit=crop',
+        ),
+    ],
+    'Health & Wellness': [
+        (
+            'Digital Blood Pressure Monitor Automatic', 1299.00, 35, 4.6,
+            'Clinically validated upper arm BP monitor with large LCD display, irregular heartbeat detection, and memory.',
+            'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&fit=crop',
+        ),
+        (
+            'Multivitamin Daily Tablets 60 Count', 499.00, 80, 4.5,
+            'Complete A-Z multivitamin and mineral supplement with iron, zinc, and B-complex for daily health support.',
+            'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&fit=crop',
+        ),
+        (
+            'Whey Protein Powder Chocolate 1kg', 1999.00, 40, 4.7,
+            '24g protein per serving with BCAA and digestive enzymes. Low sugar, high absorption whey isolate blend.',
+            'https://images.unsplash.com/photo-1593095948071-474c5cc2c4d8?w=800&fit=crop',
+        ),
+        (
+            'Infrared Digital Thermometer Non-Contact', 699.00, 55, 4.4,
+            'Instant 1-second forehead temperature reading with fever alarm, LCD backlight, and 32 memory recall.',
+            'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&fit=crop',
+        ),
+        (
+            'Orthopaedic Memory Foam Pillow', 1499.00, 30, 4.6,
+            'Contoured cervical pillow with cooling gel layer for neck and spine alignment during sleep.',
+            'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=800&fit=crop',
+        ),
+        (
+            'Omega-3 Fish Oil Capsules 1000mg 90 Count', 599.00, 65, 4.5,
+            'High potency EPA/DHA omega-3 fatty acids from deep-sea fish for heart, brain, and joint health support.',
+            'https://images.unsplash.com/photo-1550572017-edd951b55104?w=800&fit=crop',
+        ),
+        (
+            'Electric Heating Pad for Pain Relief', 899.00, 40, 4.4,
+            'Soft micro-plush heating pad with 3 heat settings, auto-shutoff timer, and washable cover for body aches.',
+            'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&fit=crop',
+        ),
+        (
+            'Copper Water Bottle Ayurvedic 1L', 699.00, 45, 4.5,
+            'Handcrafted pure copper bottle for storing drinking water, supports Ayurvedic health and digestion benefits.',
+            'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&fit=crop',
+        ),
+    ],
+    'Stationery & Office': [
+        (
+            'Premium Notebook A5 Hardcover 200 Pages', 349.00, 70, 4.5,
+            'Acid-free cream paper with lay-flat binding, elastic closure, ribbon bookmark, and inner pocket.',
+            'https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=800&fit=crop',
+        ),
+        (
+            'Gel Pen Set 12 Colors Fine Tip 0.5mm', 199.00, 100, 4.4,
+            'Smooth-flowing quick-dry gel ink pens with comfortable rubber grip for writing, drawing, and journaling.',
+            'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&fit=crop',
+        ),
+        (
+            'Desk Organiser Wooden Multi-Compartment', 599.00, 40, 4.3,
+            'Natural bamboo desktop organiser with slots for pens, phone, sticky notes, and business cards.',
+            'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=800&fit=crop',
+        ),
+        (
+            'Ergonomic Office Chair with Lumbar Support', 7999.00, 12, 4.7,
+            'Mesh back breathable chair with adjustable height, armrests, headrest, and 360° swivel base.',
+            'https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=800&fit=crop',
+        ),
+        (
+            'Whiteboard Magnetic 60x90cm with Markers', 1299.00, 25, 4.4,
+            'Lacquered steel surface magnetic whiteboard with aluminium frame, 4 markers, eraser, and mounting kit.',
+            'https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=800&fit=crop',
+        ),
+        (
+            'Scientific Calculator FX-991 Advanced', 899.00, 50, 4.6,
+            '417 functions including matrix, vector, statistics, and equation solving. Solar + battery powered.',
+            'https://images.unsplash.com/photo-1564466809058-bf4114d55352?w=800&fit=crop',
+        ),
+        (
+            'Art Supplies Drawing Set 72 Pieces', 999.00, 35, 4.5,
+            'Professional sketching kit with graphite, charcoal, colored pencils, blending stumps, and zippered case.',
+            'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&fit=crop',
+        ),
+        (
+            'Sticky Notes Neon Assorted Pack 400 Sheets', 149.00, 120, 4.3,
+            '8 neon colors 3x3 inch self-adhesive sticky notes for reminders, bookmarking, and office organisation.',
+            'https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?w=800&fit=crop',
+        ),
+    ],
+    'Automotive & Accessories': [
+        (
+            'Car Dash Camera Full HD 1080p with Night Vision', 2499.00, 25, 4.6,
+            'Wide 170° angle dash cam with G-sensor, loop recording, parking monitor, and night vision for road safety.',
+            'https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&fit=crop',
+        ),
+        (
+            'Car Phone Mount Magnetic Air Vent', 399.00, 80, 4.4,
+            'Strong neodymium magnet car mount with 360° rotation for hands-free navigation on any smartphone.',
+            'https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=800&fit=crop',
+        ),
+        (
+            'Car Vacuum Cleaner Portable 12V 120W', 999.00, 40, 4.3,
+            'Powerful cordless handheld vacuum with HEPA filter, wet/dry suction, and LED light for car interior cleaning.',
+            'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&fit=crop',
+        ),
+        (
+            'Tyre Inflator Digital Portable Air Compressor', 1499.00, 30, 4.5,
+            'Digital preset 12V tyre inflator with auto-stop, LED flashlight, and multiple nozzles for car, bike, and balls.',
+            'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&fit=crop',
+        ),
+        (
+            'Car Seat Cover PU Leather Full Set', 2999.00, 20, 4.4,
+            'Premium faux leather universal seat covers with side airbag compatible design and anti-slip backing.',
+            'https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=800&fit=crop',
+        ),
+        (
+            'LED Car Interior Ambient Lighting Strip Kit', 599.00, 55, 4.3,
+            'RGB multi-color LED strips with app and music sync control, waterproof adhesive for under-dash ambiance.',
+            'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&fit=crop',
+        ),
+        (
+            'Motorcycle Riding Gloves Touchscreen Compatible', 799.00, 45, 4.5,
+            'Breathable mesh gloves with knuckle protection, anti-slip palm grip, and touchscreen fingertip compatibility.',
+            'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&fit=crop',
+        ),
+        (
+            'Car Air Freshener Premium Perfume Set of 3', 349.00, 70, 4.2,
+            'Long-lasting organic car perfumes in lavender, ocean breeze, and citrus scents with vent clip design.',
+            'https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=800&fit=crop',
         ),
     ],
 }
@@ -333,5 +671,9 @@ class Command(BaseCommand):
                     product.save(update_fields=changed_fields)
                     updated_products += 1
 
-        msg = f'Done. Categories: {created_categories} added. Products: {created_products} created, {updated_products} updated.'
+        total = sum(len(products) for products in SAMPLE_DATA.values())
+        msg = (
+            f'Done. {len(SAMPLE_DATA)} categories ({created_categories} new). '
+            f'{total} total products ({created_products} created, {updated_products} updated).'
+        )
         self.stdout.write(self.style.SUCCESS(msg))
